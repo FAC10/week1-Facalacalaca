@@ -1,7 +1,7 @@
 // SMOOTH SCROLLING - Pure Javascript - Credit: http://web.archive.org/web/20140103045600/http://www.itnewb.com/tutorial/Creating-the-Smooth-Scroll-Effect-with-JavaScript
 
 function currentYPosition() {
-    if (window.pageYOffset) return window.pageYOffset; // pageXOffset and pageYOffset properties returns the pixels the current document has been scrolled from the upper left corner of the window, horizontally and vertically
+    if (window.pageYOffset) return window.pageYOffset; //pageXOffset and pageYOffset properties returns the pixels the current document has been scrolled from the upper left corner of the window, horizontally and vertically
 }
 
 function elmYPosition(eID) {
