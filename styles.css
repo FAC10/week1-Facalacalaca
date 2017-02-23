@@ -1,21 +1,11 @@
-/*backgrounds*/
-
-
-.pageOne {
-  padding: 50px;
-}
-
-
 #matrix{
   height: auto;
-
   max-width: 100%;
   border-radius: 5em;
 }
-#space{
 
+.space{
   margin-top: 3em;
-
 }
 
 figure:first-child{
@@ -48,6 +38,7 @@ blockquote {
 
 cite {
   font-family: 'Raleway', sans-serif;
+  margin-left: 2em;
 }
 
 .divider {
@@ -125,7 +116,7 @@ nav {
     width: 100%;
   }
   .navlist a {
-    font-size: 12px;
+    padding: 10px 10px;
   }
 }
 
