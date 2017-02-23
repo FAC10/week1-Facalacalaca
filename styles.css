@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 /*backgrounds*/
 
-
 .pageOne {
-  padding: 50px;
+  padding-top: 50px;
   background-color: #A1BDAB;
   width: 100%;
 }
@@ -106,6 +109,7 @@ nav {
 }
 
 .navlist {
+    font-size: 0;
     display: inline-block;
 
 }
@@ -203,6 +207,7 @@ textarea:focus {
 
 /*About Section*/
 .section_logos {
+  font-size: 0;
   display: inline-block;
   margin: 3%;
 }
@@ -341,6 +346,7 @@ figure {
   width: 40%;
   border-radius: 50%;
   border: 3px solid #E49160;
+  font-size: 0;
   display: inline-block;
   margin: 4%;
 }
