@@ -192,8 +192,8 @@ textarea:focus {
 
 /*About Section*/
 .section_logos {
-  width: 30%;
-  height: 30%;
+  width: 40%;
+  height: 40%;
   display: inline-block;
   margin: 3%;
 }
@@ -209,7 +209,7 @@ figure {
 }
 
 .section_logos_html {
-  margin-top: 11%;
+  margin-top: 15%;
 }
 
 .modal{
