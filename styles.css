@@ -1,3 +1,31 @@
+#matrix{
+  height: 100vh;
+  max-width: 100%;
+  border-radius: 5em;
+}
+#space{
+
+  margin-top: 3em;
+
+}
+
+figure:first-child{
+  position: relative;
+}
+figurecaption{
+  position: absolute;
+  z-index: 1;
+  font-family: "Poiret One", cursive;
+  font-size: 2em;
+  background: white;
+  border-radius: 1em;
+  top: 13em;
+  left: 20em;
+  right: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* General Design */
 h1 {
   font-family: 'Poiret One', cursive;
@@ -8,6 +36,8 @@ h1 {
 p {
   font-family: 'Raleway', sans-serif;
   text-align: justify;
+  font-size: 2em;
+  margin-bottom: 2em;
 }
 
 blockquote {
@@ -45,7 +75,10 @@ section {
   width: 100%;
   top: 0;
   left: 0;
+
   padding-top: 0.6em;
+  z-index: 2;
+
 }
 
 nav {
@@ -58,10 +91,12 @@ nav {
     overflow: hidden;
     background-color: white;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .navlist {
     display: inline-block;
+
 }
 
 .navlist a {
@@ -72,6 +107,7 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.3em;
+
 }
 
 .navlist a:hover {
@@ -94,7 +130,7 @@ nav {
 
 /*Contact form*/
 body{
-  max-width: 40.5em;
+  max-width: 80em;
   margin: 0 auto;
   background: white;
 }
