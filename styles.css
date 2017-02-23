@@ -2,6 +2,7 @@
 h1 {
   font-family: 'Poiret One', cursive;
   text-align: center;
+  margin-top: 50px;
 }
 
 p {
@@ -33,6 +34,9 @@ footer {
   width: 100%;
 }
 
+section {
+  padding-top: 20px;
+}
 /*Nav Bar styles*/
 
 .nav {
@@ -111,5 +115,17 @@ form{
   margin: 0.5em;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 10px;
+  text-align: center;
+  margin: 0;
+
+}
+
+/*About Section*/
+.section_logos {
+  width: 15%;
+}
+
+figure {
+  text-align: center;
 
 }
