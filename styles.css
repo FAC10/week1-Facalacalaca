@@ -5,8 +5,8 @@
 /*backgrounds*/
 
 .pageOne {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   height: 100vh;
   background-color: #A1BDAB;
   width: 100%;
@@ -20,8 +20,8 @@
 
 #codepic {
 
+  max-width: 80%;
   height: auto;
-  max-width: 100%;
   border-radius: 5em;
   margin-top: 1.5em;
 }
