@@ -1,26 +1,45 @@
-#matrix{
+
+/*backgrounds*/
+
+
+.pageOne {
+  padding: 50px;
+  background-color: #A1BDAB;
+  width: 100%;
+}
+
+#contact {
+  background-color: #A1BDAB;
+}
+
+/*home landing page*/
+
+#codepic {
+
   height: auto;
   max-width: 100%;
   border-radius: 5em;
+  margin-top: 1.5em;
 }
 
-.space{
+#home{
   margin-top: 3em;
 }
 
-figure:first-child{
-  position: relative;
-}
 figurecaption{
   font-family: "Poiret One", cursive;
+  color: white;
   font-size: 2em;
+  margin: auto;
+  background-color: #E49160;
 }
 
+
 /* General Design */
-h1 {
+.section_title {
   font-family: 'Poiret One', cursive;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 1em;
   font-size: 2em;
 }
 
@@ -52,13 +71,14 @@ footer {
   font-size: 0.5em;
   text-align: center;
   padding: 1.2em;
-  background-color: gainsboro;
+  background-color: #E49160;
   width: 100%;
 }
 
 section {
   padding-top: 1em;
 }
+
 /*Nav Bar styles*/
 
 .nav {
@@ -122,7 +142,7 @@ nav {
 
 /*Contact form*/
 body{
-  max-width: 80em;
+  max-width: 100vw;
   margin: 0 auto;
   background: white;
 }
@@ -142,12 +162,11 @@ ul{
 
 form{
   margin: 0.5em;
-  border: 1px solid rgb(204, 204, 204);
   border-radius: 10px;
   text-align: left;
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  background-color: gainsboro;
+  background-color: #A1BDAB;
 
 }
 
@@ -157,7 +176,8 @@ input {
 }
 
 input[type=submit]{
-  margin-top:3em;
+  margin-top:2em;
+  margin-bottom:2em;
   border: 1px solid black;
   border-radius: 2em;
 }
