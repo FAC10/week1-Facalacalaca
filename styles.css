@@ -92,7 +92,7 @@ nav {
   }
 }
 
-
+/*Contact form*/
 body{
   max-width: 40.5em;
   margin: 0 auto;
@@ -101,6 +101,7 @@ body{
 
 label {
   display: block;
+  padding: 5px;
 }
 
 ul{
@@ -115,9 +116,19 @@ form{
   margin: 0.5em;
   border: 1px solid rgb(204, 204, 204);
   border-radius: 10px;
-  text-align: center;
+  text-align: left;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: gainsboro;
 
+}
+
+input {
+  width: 90%;
+  padding: 12px 20px;
+}
+textarea {
+  width: 90%;
 }
 
 /*About Section*/
