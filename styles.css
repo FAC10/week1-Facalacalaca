@@ -175,10 +175,23 @@ textarea:focus {
 
 /*About Section*/
 .section_logos {
-  width: 15%;
+  height: 12%;
+  width: auto;
+  display: inline-block;
+  margin: 3%;
 }
 
 figure {
   text-align: center;
 
+}
+
+/*Team Section*/
+
+.section_team_members {
+  width: 40%;
+  border-radius: 50%;
+  border: 2.5px solid #E49160;
+  display: inline-block;
+  margin: 4%;
 }
