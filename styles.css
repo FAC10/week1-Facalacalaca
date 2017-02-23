@@ -6,6 +6,8 @@
 
 .pageOne {
   padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100vh;
   background-color: #A1BDAB;
   width: 100%;
 }
@@ -209,7 +211,6 @@ textarea:focus {
 .section_logos {
   font-size: 0;
   display: inline-block;
-  margin: 3%;
 }
 
 figure {
@@ -220,32 +221,56 @@ figure {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
+  align-items: center;
 }
 
 .section_logos_js {
   width: 45%;
   height: 45%;
-  margin-top: 10%;
-  margin-left: 0;
 }
 
 .section_logos_node {
   width: 40%;
   height: 40%;
-  margin-top: 10%;
-  margin-right: 0;
 }
 
 .section_logos_html {
   width: 40%;
   height: 40%;
-  margin-top: 10%;
+
 }
 
 .section_logos_css3 {
   width: 30%;
   height: 30%;
-  margin-top: 7%;
+
+}
+
+@media screen and (min-width: 600px) {
+
+  .figure_icons {
+    flex-flow: row nowrap;
+  }
+
+  .section_logos_js {
+    width: 22%;
+    height: 22%;
+  }
+
+  .section_logos_node {
+    width: 20%;
+    height: 20%;
+  }
+
+  .section_logos_html {
+    width: 20%;
+    height: 20%;
+  }
+
+  .section_logos_css3 {
+    width: 15%;
+    height: 15%;
+  }
 }
 
 .modal{
