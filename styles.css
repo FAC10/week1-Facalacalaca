@@ -191,7 +191,7 @@ figure {
 .section_team_members {
   width: 40%;
   border-radius: 50%;
-  border: 2.5px solid #E49160;
+  border: 3px solid #E49160;
   display: inline-block;
   margin: 4%;
 }
