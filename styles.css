@@ -1,30 +1,19 @@
 #matrix{
   height: auto;
-
   max-width: 100%;
   border-radius: 5em;
 }
-#space{
 
+.space{
   margin-top: 3em;
-
 }
 
 figure:first-child{
   position: relative;
 }
 figurecaption{
-  position: absolute;
-  z-index: 1;
   font-family: "Poiret One", cursive;
   font-size: 2em;
-  background: white;
-  border-radius: 1em;
-  top: 13em;
-  left: 20em;
-  right: 20em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* General Design */
@@ -32,13 +21,14 @@ h1 {
   font-family: 'Poiret One', cursive;
   text-align: center;
   margin-top: 1.5em;
+  font-size: 2em;
 }
 
 p {
   font-family: 'Raleway', sans-serif;
-  text-align: justify;
-  font-size: 2em;
+  font-size: 1.2em;
   margin-bottom: 2em;
+  text-align: center;
 }
 
 blockquote {
@@ -48,6 +38,7 @@ blockquote {
 
 cite {
   font-family: 'Raleway', sans-serif;
+  margin-left: 2em;
 }
 
 .divider {
@@ -125,7 +116,7 @@ nav {
     width: 100%;
   }
   .navlist a {
-    font-size: 12px;
+    padding: 10px 10px;
   }
 }
 
@@ -192,15 +183,44 @@ textarea:focus {
 
 /*About Section*/
 .section_logos {
-  height: 12%;
-  width: auto;
   display: inline-block;
   margin: 3%;
 }
 
 figure {
   text-align: center;
+}
 
+.figure_icons {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.section_logos_js {
+  width: 45%;
+  height: 45%;
+  margin-top: 10%;
+  margin-left: 0;
+}
+
+.section_logos_node {
+  width: 40%;
+  height: 40%;
+  margin-top: 10%;
+  margin-right: 0;
+}
+
+.section_logos_html {
+  width: 40%;
+  height: 40%;
+  margin-top: 10%;
+}
+
+.section_logos_css3 {
+  width: 30%;
+  height: 30%;
+  margin-top: 7%;
 }
 
 .modal{
@@ -214,6 +234,7 @@ figure {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 2em;
   overflow: auto;
+
   animation-name: animatetop;
   animation-duration: 0.4s;
 
