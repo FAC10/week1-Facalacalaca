@@ -84,65 +84,50 @@ section {
 }
 
 /*Nav Bar styles*/
-
-.nav {
-  position: fixed;
-  background-color: white;
-  width: 100%;
-  top: 0;
-  left: 0;
-
-  padding-top: 0.6em;
-  z-index: 2;
-
+nav{position: fixed;
+width: 100%;
+top: 0;
 }
 
-nav {
-  margin: 0 auto;
-}
 .navbar {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: white;
     text-align: center;
     border-bottom: 1px solid black;
+    background: white;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .navlist {
-    font-size: 0;
+    font-size: 1.2em;
     display: inline-block;
-
+    width: 20%;
 }
 
 .navlist a {
     font-family: 'Poiret One', cursive;
     color: black;
-    background-color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-size: 1.3em;
-
 }
 
 .navlist a:hover {
   border: 1px solid;
   border-radius: 0px 10px 0px 10px;
+  background-color: #A1BDAB;
 }
 
 .navlist a:focus {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  nav {
-    width: 100%;
-  }
-  .navlist a {
-    padding: 10px 10px;
-  }
+@media screen and (max-width: 40em) {
+    .navlist{
+      font-size: 0.7em;
+    }
 }
 
 /*Contact form*/
