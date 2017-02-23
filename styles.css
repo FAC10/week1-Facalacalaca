@@ -192,15 +192,24 @@ textarea:focus {
 
 /*About Section*/
 .section_logos {
-  height: 12%;
-  width: auto;
+  width: 30%;
+  height: 30%;
   display: inline-block;
   margin: 3%;
 }
 
 figure {
   text-align: center;
+}
 
+.figure_icons {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.section_logos_html {
+  margin-top: 11%;
 }
 
 .modal{
@@ -214,8 +223,6 @@ figure {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 2em;
   overflow: auto;
-
-
 }
 
 @keyframes animatetop{
