@@ -1,5 +1,48 @@
+/* General Design */
+h1 {
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+}
+
+blockquote {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+}
+
+cite {
+  font-family: 'Raleway', sans-serif;
+}
+
+.divider {
+  display: block;
+  margin: auto;
+  width: 100%
+}
+
+footer {
+  font: gray;
+  font-size: 9px;
+  text-align: center;
+  padding: 20px;
+  background-color: gainsboro;
+  width: 100%;
+}
 
 /*Nav Bar styles*/
+
+.nav {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+}
 
 nav {
   margin: 0 auto;
@@ -18,6 +61,7 @@ nav {
 }
 
 .navlist a {
+    font-family: 'Poiret One', cursive;
     color: black;
     background-color: white;
     text-align: center;
@@ -28,7 +72,7 @@ nav {
 
 .navlist a:hover {
   border: 1px solid;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 0px 10px 0px 10px;
 }
 
 .navlist a:focus {
@@ -48,7 +92,7 @@ nav {
 body{
   max-width: 40.5em;
   margin: 0 auto;
-  background: red;
+  background: white;
 }
 
 label {
@@ -62,8 +106,6 @@ ul{
   max-width: 40.5em;
   margin: auto;
 }
-
-
 
 form{
   margin: 0.5em;
