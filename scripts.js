@@ -1,3 +1,47 @@
+window.onload = function(){
+
+//Modal
+
+
+var modal = document.getElementById("modaljs");
+var closeButton = document.getElementById("closeButton")
+var alexis = document.getElementById("alexis");
+function fullModal(){
+    modal.style.display="block";
+}
+
+function closeModal(){
+  modal.style.display = "none";
+}
+
+function modalClose() {
+    if(event.target == modal) {
+      modal.style.display="none";
+    }
+}
+
+
+
+window.addEventListener("click", modalClose)
+alexis.addEventListener("click", fullModal);
+closeButton.addEventListener("click", closeModal);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // SMOOTH SCROLLING - Pure Javascript - Credit: http://web.archive.org/web/20140103045600/http://www.itnewb.com/tutorial/Creating-the-Smooth-Scroll-Effect-with-JavaScript
 
 function currentYPosition() {
@@ -36,4 +80,6 @@ function smoothScroll(eID) {
         setTimeout("window.scrollTo(0, "+leapY+")", timer * speed);
         leapY -= step; if (leapY < stopY) leapY = stopY; timer++;
     }
+}
+
 }

@@ -1,5 +1,6 @@
 #matrix{
-  height: 100vh;
+  height: auto;
+
   max-width: 100%;
   border-radius: 5em;
 }
@@ -161,16 +162,23 @@ input {
   padding: 12px 20px;
 }
 
+input[type=submit]{
+  margin-top:3em;
+}
+
 input:focus {
     border: 3px solid #555;
 }
 
 textarea {
   width: 90%;
+  padding: 12px 20px;
+
 }
 
 textarea:focus {
   border: 3px solid #555;
+
 }
 
 /*About Section*/
@@ -184,6 +192,65 @@ textarea:focus {
 figure {
   text-align: center;
 
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index:3;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 2em;
+  overflow: auto;
+
+
+}
+
+@keyframes animatetop{
+  from {top:-20em; opacity: 0;}
+  to {top:0; opacity 1;}
+}
+
+.close{
+  float: right;
+  font-size: 2em;
+  top: 0;
+
+}
+
+.modalcontent{
+    background-color: white;
+    margin: 15% auto;
+    width: 80%;
+    border-radius: 2em;
+    padding: 0;
+    animation-name: animatetop;
+    animation-duration: 2s;
+
+}
+.modalcontent p {
+  text-align: center;
+}
+
+.modalcontent h1 {
+  width: 100%;
+  background: black;
+  color: white;
+  font-size: 3em;
+
+}
+.modalimages{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.modalimages img {
+  width: 4em;
+  height: 4em;
 }
 
 /*Team Section*/
