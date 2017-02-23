@@ -2,7 +2,7 @@
 h1 {
   font-family: 'Poiret One', cursive;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 1.5em;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 
 blockquote {
   font-family: 'Poiret One', cursive;
-  font-size: 30px;
+  font-size: 2.5em;
 }
 
 cite {
@@ -27,15 +27,15 @@ cite {
 
 footer {
   font: gray;
-  font-size: 9px;
+  font-size: 0.5em;
   text-align: center;
-  padding: 20px;
+  padding: 1.2em;
   background-color: gainsboro;
   width: 100%;
 }
 
 section {
-  padding-top: 20px;
+  padding-top: 1em;
 }
 /*Nav Bar styles*/
 
@@ -45,7 +45,7 @@ section {
   width: 100%;
   top: 0;
   left: 0;
-  padding-top: 10px;
+  padding-top: 0.6em;
 }
 
 nav {
@@ -71,7 +71,7 @@ nav {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.3em;
 }
 
 .navlist a:hover {
@@ -101,7 +101,7 @@ body{
 
 label {
   display: block;
-  padding: 5px;
+  padding: 0.5em;
 }
 
 ul{
