@@ -234,6 +234,10 @@ figure {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 2em;
   overflow: auto;
+
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+
 }
 
 @keyframes animatetop{
@@ -243,9 +247,19 @@ figure {
 
 .close{
   float: right;
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: bold;
   top: 0;
+  color: #aaa;
+  position: relative;
+  top: -4em;
+  bottom: 0em;
 
+}
+.close:hover, .close:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .modalcontent{
@@ -254,8 +268,7 @@ figure {
     width: 80%;
     border-radius: 2em;
     padding: 0;
-    animation-name: animatetop;
-    animation-duration: 2s;
+
 
 }
 .modalcontent p {
@@ -278,6 +291,19 @@ figure {
 .modalimages img {
   width: 4em;
   height: 4em;
+
+}
+
+.modalimages img:hover{
+    cursor: pointer;
+}
+
+
+.section_team_members:hover{
+
+    transform: rotateY(30deg);
+    transform: rotateX(40deg);
+    transition: 0.3s ease-in-out;
 }
 
 /*Team Section*/

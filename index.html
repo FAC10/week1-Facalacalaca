@@ -1,21 +1,23 @@
-at<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+
     <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Facalacalaca Portfolio Website">
-    <meta name="keywords" content="FAC, Founders and Coders, Facalacalaca, FAC10, Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
-    <link rel="icon" href="assets/lacalaca.png">
-    <script type="text/javascript" src="scripts.js"></script>
-    <title>Facalacalaca</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Facalacalaca Portfolio Website">
+        <meta name="keywords" content="FAC, Founders and Coders, Facalacalaca, FAC10, Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+        <link rel="icon" href="assets/lacalaca.png">
+        <script type="text/javascript" src="scripts.js"></script>
+        <title>Facalacalaca</title>
     </head>
-  </head>
-  <body>
+
+<body>
 
     <div class="nav">
+
     <nav>
     	<ul class="navbar">
     		<li class="navlist"><a href="#home">Home</a></li>
@@ -57,31 +59,61 @@ at<!DOCTYPE html>
       <img id="alexis" class = "section_team_members" src="assets/square alexis.jpg" alt="Alexis">
       <img class = "section_team_members" src="assets/square alice.jpg" alt="Alice">
     </figure>
-    <figure>
-      <img class = "section_team_members" src="assets/square martha.jpg" alt="Martha">
-      <img class = "section_team_members" src="assets/square samatar.jpg" alt="Samatar">
-    </figure>
-  </div>
-</section>
+    <!--About Us-->
+    <section id="about">
+        <h1 class="section_title">About Us</h1>
+        <p class="section_text"> Hello, everybody. Meet Alexis, Alice, Martha and Samatar. They're dreamers, believers, achievers and aspiring web developers. By the time they graduate from
+            <b>Founders and Coders</b>, they hope to be <s>aspiring</s> web developers. They look forward to becoming little gurus in some of the things below: </p>
+        <figure>
+            <img class="section_logos" alt="html logo" src="https://www.writeraccess.com/wp-content/uploads/2014/08/blog-html-5.png">
+            <img class="section_logos" alt="javascript logo" src="http://eulife.appchallenge.net/wp-content/uploads/2015/07/javascript.png">
+            <img class="section_logos" alt="css logo" src="http://wpguru.co.uk/wp-content/uploads/2013/09/CSS-Logo-214x300.png">
+            <img class="section_logos" alt="node logo" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png">
+        </figure>
 
-<!--modal-->
-<div id="modaljs" class="modal">
-  <div class="modalcontent">
-    <h1>Alexis</h1>
-    <p>Alexis has plans to take over the world, what a world it would be indeed.
-    </p>
-    <span id="closeButton" class="close">&times;</span>
-    <figure class="modalimages">
-      <img src="assets/codewars.png" alt="codewars">
-      <img src="assets/linkedin.png" alt="linkedin">
-      <img src="assets/github.png" alt="github">
-    </figure>
-  </div>
-</div>
+    </section>
+    <!--Portfolio-->
+    <section id="portfolio">
+        <h1 class="section_title">Portfolio</h1>
+
+    </section>
+
+    <!--Team-->
+    <section id="team">
+        <h1 class="section_title">Team</h1>
+        <div>
+            <figure>
+
+                <img id="alexis" class="section_team_members" src="assets/square alexis.jpg" alt="Alexis">
+                <img id="alice" class="section_team_members" src="assets/square alice.jpg" alt="Alice">
+            </figure>
+            <figure>
+                <img id="martha" class="section_team_members" src="assets/square martha.jpg" alt="Martha">
+                <img id="samatar" class="section_team_members" src="assets/square samatar.jpg" alt="Samatar">
+            </figure>
+        </div>
+    </section>
+
+    <!--modal-->
+    <div id="modaljs" class="modal">
+        <div class="modalcontent">
+            <h1 id="name">Alexis</h1>
+            <p id="text">
+            </p>
+            <span id="closeButton" class="close">&times;</span>
+            <figure class="modalimages">
+                <a href="" class="socialLinks"><img src="assets/github.png" alt="github"></a>
+                <a href="" class="socialLinks"><img src="assets/codewars.png" alt="codewars"></a>
+                <a href="" class="socialLinks"><img src="assets/linkedin.png" alt="linkedin"></a>
+
+            </figure>
+        </div>
+    </div>
 
 
-<!--Contact form-->
+    <!--Contact form-->
     <section id="contact">
+
       <h1 class="section_title">Contact Us</h1>
     <form class="contactForm" action="http://formspree.io/smarthutza@yahoo.com" method="post" id="contact">
     <div class="inputHolder">
@@ -102,11 +134,9 @@ at<!DOCTYPE html>
         <input id="submit" type="submit" name="submitButton" value="Submit">
       </li>
     </ul>
-  </section>
-
-
   </div>
   </form>
+      </section>
 
 <img src="assets/pageDiv.jpg" class="divider"/ id="team">
 
@@ -117,5 +147,6 @@ at<!DOCTYPE html>
 <footer>
   <p>Created by Facalacalaca, February 2017</p>
 </footer>
-  </body>
+      </body>
 </html>
+
