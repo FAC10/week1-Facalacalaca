@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Facalacalaca Portfolio Website">
-    <meta name="keywords" content="FAC, Founders and Coders, Facalacalaca, FAC10, Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
-    <link rel="icon" href="assets/lacalaca.png">
-    <script type="text/javascript" src="scripts.js"></script>
-    <title>Facalacalaca</title>
-  </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Facalacalaca Portfolio Website">
+        <meta name="keywords" content="FAC, Founders and Coders, Facalacalaca, FAC10, Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One|Raleway" rel="stylesheet">
+        <link rel="icon" href="assets/lacalaca.png">
+        <script type="text/javascript" src="scripts.js"></script>
+        <title>Facalacalaca</title>
+    </head>
 
-  <body>
+<body>
 
     <div class="nav">
-      <nav>
-    	  <ul class="navbar">
-    		  <li class="navlist"><a href="#home">Home</a></li>
-    		  <li class="navlist"><a href="#about">About</a></li>
-    		  <li class="navlist"><a href="#portfolio">Portfolio</a></li>
-          <li class="navlist"><a href="#team">Team</a></li>
-          <li class="navlist"><a href="#contact">Contact</a></li>
-    	  </ul>
-     </nav>
-   </div>
+
+    <nav>
+    	<ul class="navbar">
+    		<li class="navlist"><a href="#home">Home</a></li>
+    		<li class="navlist"><a href="#about">About</a></li>
+        <li class="navlist"><a href="#team">Team</a></li>
+        <li class="navlist"><a href="#contact">Contact</a></li>
+    	</ul>
+    </nav>
+    </div>
 
 
-    <figure id="home">
-
+    <figure class="space" id="home">
       <figurecaption>We would love to build your site</figurecaption>
       <img id="codepic" src="assets/Code.gif" alt="coding picture">
 
@@ -39,11 +38,12 @@
 <h1 class = "section_title">About Us</h1>
 <p class="section_text"> Hello, everybody. Meet Alexis, Alice, Martha and Samatar. <br><br>They're dreamers, believers, achievers and aspiring web developers. <br><br>By the time they graduate from
 <b>Founders and Coders</b>, they hope to be <s>aspiring</s> web developers. They look forward to becoming little gurus in some of the things below: </p>
-  <figure>
-    <img class = "section_logos" alt="html logo" src="https://www.writeraccess.com/wp-content/uploads/2014/08/blog-html-5.png">
-    <img class = "section_logos" alt="javascript logo" src="http://eulife.appchallenge.net/wp-content/uploads/2015/07/javascript.png">
-    <img class = "section_logos" alt="css logo" src="http://wpguru.co.uk/wp-content/uploads/2013/09/CSS-Logo-214x300.png">
-    <img class = "section_logos" alt="node logo" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png">
+  <figure class="figure_icons">
+
+    <img class = "section_logos section_logos_js" alt="javascript logo" src="http://eulife.appchallenge.net/wp-content/uploads/2015/07/javascript.png">
+    <img class = "section_logos section_logos_node" alt="node logo" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png">
+    <img class = "section_logos section_logos_html" alt="html logo" src="https://www.writeraccess.com/wp-content/uploads/2014/08/blog-html-5.png">
+    <img class = "section_logos section_logos_css3" alt="css logo" src="http://vignette2.wikia.nocookie.net/howtoprogram/images/a/a9/CSS3.png/revision/latest?cb=20130422012035">
   </figure>
 
 </section>
@@ -57,27 +57,56 @@
       <img id="alexis" class = "section_team_members" src="assets/square alexis.jpg" alt="Alexis">
       <img class = "section_team_members" src="assets/square alice.jpg" alt="Alice">
     </figure>
-    <figure>
-      <img class = "section_team_members" src="assets/square martha.jpg" alt="Martha">
-      <img class = "section_team_members" src="assets/square samatar.jpg" alt="Samatar">
-    </figure>
-  </div>
-</section>
+    <!--About Us-->
+    <section id="about">
+        <h1 class="section_title">About Us</h1>
+        <p class="section_text"> Hello, everybody. Meet Alexis, Alice, Martha and Samatar. They're dreamers, believers, achievers and aspiring web developers. By the time they graduate from
+            <b>Founders and Coders</b>, they hope to be <s>aspiring</s> web developers. They look forward to becoming little gurus in some of the things below: </p>
+        <figure>
+            <img class="section_logos" alt="html logo" src="https://www.writeraccess.com/wp-content/uploads/2014/08/blog-html-5.png">
+            <img class="section_logos" alt="javascript logo" src="http://eulife.appchallenge.net/wp-content/uploads/2015/07/javascript.png">
+            <img class="section_logos" alt="css logo" src="http://wpguru.co.uk/wp-content/uploads/2013/09/CSS-Logo-214x300.png">
+            <img class="section_logos" alt="node logo" src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png">
+        </figure>
 
-<!--modal-->
-<div id="modaljs" class="modal">
-  <div class="modalcontent">
-    <h1>Alexis</h1>
-    <p>Alexis has plans to take over the world, what a world it would be indeed.
-    </p>
-    <span id="closeButton" class="close">&times;</span>
-    <figure class="modalimages">
-      <img src="assets/codewars.png" alt="codewars">
-      <img src="assets/linkedin.png" alt="linkedin">
-      <img src="assets/github.png" alt="github">
-    </figure>
-  </div>
-</div>
+    </section>
+    <!--Portfolio-->
+    <section id="portfolio">
+        <h1 class="section_title">Portfolio</h1>
+
+    </section>
+
+    <!--Team-->
+    <section id="team">
+        <h1 class="section_title">Team</h1>
+        <div>
+            <figure>
+
+                <img id="alexis" class="section_team_members" src="assets/square alexis.jpg" alt="Alexis">
+                <img id="alice" class="section_team_members" src="assets/square alice.jpg" alt="Alice">
+            </figure>
+            <figure>
+                <img id="martha" class="section_team_members" src="assets/square martha.jpg" alt="Martha">
+                <img id="samatar" class="section_team_members" src="assets/square samatar.jpg" alt="Samatar">
+            </figure>
+        </div>
+    </section>
+
+    <!--modal-->
+    <div id="modaljs" class="modal">
+        <div class="modalcontent">
+            <h1 id="name">Alexis</h1>
+            <p id="text">
+            </p>
+            <span id="closeButton" class="close">&times;</span>
+            <figure class="modalimages">
+                <a href="" class="socialLinks"><img src="assets/github.png" alt="github"></a>
+                <a href="" class="socialLinks"><img src="assets/codewars.png" alt="codewars"></a>
+                <a href="" class="socialLinks"><img src="assets/linkedin.png" alt="linkedin"></a>
+
+            </figure>
+        </div>
+    </div>
 
 <img src="assets/pageDiv.jpg" class="divider"/ id="team">
 
@@ -86,8 +115,9 @@
 <img src="assets/pageDiv.jpg" class="divider"/>
 
 
-<!--Contact form-->
+    <!--Contact form-->
     <section id="contact">
+
       <h1 class="section_title">Contact Us</h1>
     <form class="contactForm" action="http://formspree.io/smarthutza@yahoo.com" method="post" id="contact">
     <div class="inputHolder">
@@ -108,15 +138,14 @@
         <input id="submit" type="submit" name="submitButton" value="Submit">
       </li>
     </ul>
-  </section>
-
-
   </div>
   </form>
+      </section>
 
 
 <footer>
   <p>Created by Facalacalaca, February 2017</p>
 </footer>
-  </body>
+      </body>
 </html>
+
