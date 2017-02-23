@@ -3,7 +3,7 @@ window.onload = function(){
 //Modal
 var git = "https://github.com/";
 var codewars = "https://codewars.com/users/";
-var linkedIn = "https://www.linkedin.com/in";
+var linkedIn = "https://www.linkedin.com/in/";
 
 var links = [git+"smarthutza", codewars+"smarthutza", linkedIn+"smarhutza",
 git+"alexis-l8", codewars+"alexis-l8", linkedIn + "alexisluiccaf",
