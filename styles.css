@@ -192,8 +192,6 @@ textarea:focus {
 
 /*About Section*/
 .section_logos {
-  width: 40%;
-  height: 40%;
   display: inline-block;
   margin: 3%;
 }
@@ -208,8 +206,30 @@ figure {
   flex-flow: row wrap;
 }
 
+.section_logos_js {
+  width: 45%;
+  height: 45%;
+  margin-top: 10%;
+  margin-left: 0;
+}
+
+.section_logos_node {
+  width: 40%;
+  height: 40%;
+  margin-top: 10%;
+  margin-right: 0;
+}
+
 .section_logos_html {
-  margin-top: 15%;
+  width: 40%;
+  height: 40%;
+  margin-top: 10%;
+}
+
+.section_logos_css3 {
+  width: 30%;
+  height: 30%;
+  margin-top: 7%;
 }
 
 .modal{
