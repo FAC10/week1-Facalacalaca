@@ -67,7 +67,7 @@ cite {
 }
 
 footer {
-  font: gray;
+  font: white;
   font-size: 0.5em;
   text-align: center;
   padding: 1.2em;
@@ -177,10 +177,10 @@ input {
 
 input[type=submit]{
 
-  margin-left: 2em;
-  margin-top:3em;
   border: 1px solid black;
   border-radius: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 input[type=submit]:hover{
