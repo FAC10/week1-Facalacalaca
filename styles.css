@@ -367,11 +367,20 @@ figure {
 
 /*Team Section*/
 
+
+
 .section_team_members {
   width: 40%;
   border-radius: 50%;
   border: 3px solid #E49160;
   font-size: 0;
   display: inline-block;
-  margin: 4%;
+  margin: 2% 2% 0% 2%;
+}
+
+
+@media screen and (min-width: 600px) {
+  .section_team_members {
+    max-width: 300px;
+  }
 }
