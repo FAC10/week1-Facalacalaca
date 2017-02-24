@@ -72,13 +72,17 @@ p {
 }
 
 blockquote {
-    font-family: 'Poiret One', cursive;
-    font-size: 2.5em;
+
+  font-family: 'Poiret One', cursive;
+  font-size: 2.5em;
+  text-align: center;
 }
 
 cite {
-    font-family: 'Raleway', sans-serif;
-    margin-left: 2em;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 2em;
+  float: right;
+  margin-right: 2em;
 }
 
 .divider {
@@ -232,19 +236,20 @@ figure {
     }
 }
 
-.modal {
-    display: none;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 3;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 2em;
-    overflow: auto;
-    animation-name: animatetop;
-    animation-duration: 0.4s;
+
+.modal{
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index:3;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+
+  animation-name: animatetop;
+  animation-duration: 0.4s;
 }
 
 @keyframes animatetop {
@@ -341,6 +346,7 @@ figure {
     font-size: 0;
     display: inline-block;
     margin: 0% 2% 0% 2%;
+    transition: 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 600px) {
@@ -348,6 +354,7 @@ figure {
         max-width: 300px;
     }
 }
+
 
 /*Contact form*/
 
