@@ -362,6 +362,20 @@ figure {
 }
 
 
+.JavaScript{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.social{
+  max-width: 5em;
+  max-height: 5em;
+}
+
+
 /*Team Section*/
 
 .section_team_members {
