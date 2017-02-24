@@ -1,6 +1,6 @@
 # week1-Facalacalaca
 
-finished site: [Our Site](https://smarthutza.github.io/week1-Facalacalaca/)
+finished site: [Our Site](https://fac10.github.io/week1-Facalacalaca/)
 
 **WHY**
 
