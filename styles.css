@@ -183,6 +183,11 @@ nav {
   min-height: 100vh;
 }
 
+#aboutText {
+  max-width: 1500px;
+  text-align: center;
+}
+
 .section_logos {
     font-size: 0;
     display: inline-block;
