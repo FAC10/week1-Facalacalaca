@@ -4,10 +4,8 @@
 
 /*backgrounds*/
 
-.pageOne {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  height: 100vh;
+#about {
+  padding: 15px;
   background-color: #A1BDAB;
   width: 100%;
 }
@@ -33,7 +31,7 @@
 figurecaption{
   font-family: "Poiret One", cursive;
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   margin: auto;
   background-color: #E49160;
 }
@@ -44,7 +42,8 @@ figurecaption{
   font-family: 'Poiret One', cursive;
   text-align: center;
   margin-top: 1em;
-  font-size: 2em;
+  font-weight: 900;
+  font-size: 2.5em;
 }
 
 p {
@@ -120,9 +119,9 @@ top: 0;
   background-color: #A1BDAB;
 }
 
-.navlist a:focus {
+/*.navlist a:focus {
   text-decoration: underline;
-}
+} */
 
 @media screen and (max-width: 40em) {
     .navlist{
