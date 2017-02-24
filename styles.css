@@ -24,7 +24,7 @@ body {
 /*home landing page*/
 
 #codepic {
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
     border-radius: 5em;
     margin-top: 1.5em;
@@ -35,10 +35,33 @@ body {
     padding-top: 8em;
 }
 
+@media screen and (max-width:60em){
+    #codepic{
+      min-width: 100%;
+      height: auto;
+      margin-top: 5em;
+      margin-bottom: 5em;
+    }
+    #home{
+      padding-top: 6em;
+      min-height: 50vh;
+    }
+
+    #home figurecaption{
+      font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width:30em){
+  #home figurecaption {
+      font-size: 1em;
+  }
+}
+
 figurecaption {
     font-family: "Poiret One", cursive;
     color: white;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: auto;
     background-color: black;
     display: block;
@@ -47,11 +70,7 @@ figurecaption {
     padding: 0.3em;
 }
 
-@media screen and (max-width: 40em) {
-    figurecaption {
-        font-size: 1em;
-    }
-}
+
 
 
 /* General Design */
