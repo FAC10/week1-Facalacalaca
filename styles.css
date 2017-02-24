@@ -29,7 +29,7 @@ figurecaption{
   color: white;
   font-size: 2em;
   margin: auto;
-  background-color: #E49160;
+  background-color: #C37500;
   display: block;
   max-width: 50%;
   border-radius: 2em;
@@ -147,9 +147,7 @@ label {
   padding: 0.5em;
 }
 
-ul{
-  list-style-type: none;
-}
+
 .inputHolder{
   max-width: 40.5em;
   margin: auto;
@@ -158,7 +156,7 @@ ul{
 form{
   margin: 0.5em;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
   margin: 0;
   font-family: 'Raleway', sans-serif;
   background-color: #A1BDAB;
