@@ -10,6 +10,11 @@
   background-color: #A1BDAB;
 }
 
+#about {
+  padding: 15px;
+  background-color: #A1BDAB;
+  width: 100%;
+}
 /*home landing page*/
 
 #codepic {
@@ -27,12 +32,13 @@
 figurecaption{
   font-family: "Poiret One", cursive;
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   margin: auto;
   background-color: #C37500;
   display: block;
   max-width: 50%;
   border-radius: 2em;
+  padding: 0.3em;
 }
 @media screen and (max-width: 40em){
 
