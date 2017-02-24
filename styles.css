@@ -292,7 +292,6 @@ figure {
   top:0;
   left:0;
   background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 2em;
   overflow: auto;
 
   animation-name: animatetop;
@@ -386,6 +385,8 @@ figure {
   font-size: 0;
   display: inline-block;
   margin: 2% 2% 0% 2%;
+  transition: 0.3s ease-in-out;
+
 }
 
 
