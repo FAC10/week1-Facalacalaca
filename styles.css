@@ -4,11 +4,7 @@
 
 /*backgrounds*/
 
-#about {
-  padding: 15px;
-  background-color: #A1BDAB;
-  width: 100%;
-}
+
 
 #contact {
   background-color: #A1BDAB;
@@ -33,7 +29,17 @@ figurecaption{
   color: white;
   font-size: 3em;
   margin: auto;
-  background-color: #E49160;
+  background-color: #C37500;
+  display: block;
+  max-width: 50%;
+  border-radius: 2em;
+}
+@media screen and (max-width: 40em){
+
+  figurecaption{
+    font-size: 1em;
+  }
+
 }
 
 
@@ -86,6 +92,7 @@ section {
 nav{position: fixed;
 width: 100%;
 top: 0;
+z-index: 5;
 }
 
 .navbar {
@@ -141,9 +148,7 @@ label {
   padding: 0.5em;
 }
 
-ul{
-  list-style-type: none;
-}
+
 .inputHolder{
   max-width: 40.5em;
   margin: auto;
@@ -152,7 +157,7 @@ ul{
 form{
   margin: 0.5em;
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
   margin: 0;
   font-family: 'Raleway', sans-serif;
   background-color: #A1BDAB;
@@ -200,12 +205,20 @@ textarea:focus {
 figure {
   text-align: center;
 }
+.pageOne {
 
+  height: 100vh;
+  background-color: #A1BDAB;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+}
 .figure_icons {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: center;
+  margin-top: 5em;
 }
 
 .section_logos_js {
@@ -232,8 +245,11 @@ figure {
 
 @media screen and (min-width: 600px) {
 
+.section_title{font-size: 3em;}
+.section_text{font-size: 2em;}
+
   .figure_icons {
-    flex-flow: row nowrap;
+    margin-top: em;
   }
 
   .section_logos_js {
