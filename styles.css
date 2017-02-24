@@ -140,10 +140,11 @@ nav {
 }
 
 .navlist a:hover {
-    border: 1px solid;
-    border-radius: 0px 10px 0px 10px;
-    background-color: #A1BDAB;
-    cursor: default;
+  border: 1px solid;
+  border-radius: 0px 10px 0px 10px;
+  background-color: #A1BDAB;
+  cursor: default;
+  padding: 4px;
 }
 
 
