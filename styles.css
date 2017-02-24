@@ -143,7 +143,6 @@ nav {
   border: 1px solid;
   border-radius: 0px 10px 0px 10px;
   background-color: #A1BDAB;
-  cursor: default;
   padding: 4px;
 }
 
@@ -157,6 +156,7 @@ nav {
         font-size: 0.7em;
     }
 }
+
 
 /*About Section*/
 
