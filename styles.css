@@ -27,7 +27,7 @@
 figurecaption{
   font-family: "Poiret One", cursive;
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   margin: auto;
   background-color: #C37500;
   display: block;
@@ -48,7 +48,8 @@ figurecaption{
   font-family: 'Poiret One', cursive;
   text-align: center;
   margin-top: 1em;
-  font-size: 2em;
+  font-weight: 900;
+  font-size: 2.5em;
 }
 
 p {
@@ -125,9 +126,9 @@ z-index: 5;
   background-color: #A1BDAB;
 }
 
-.navlist a:focus {
+/*.navlist a:focus {
   text-decoration: underline;
-}
+} */
 
 @media screen and (max-width: 40em) {
     .navlist{
