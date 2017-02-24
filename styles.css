@@ -133,7 +133,6 @@ z-index: 5;
   border: 1px solid;
   border-radius: 0px 10px 0px 10px;
   background-color: #A1BDAB;
-  cursor: default;
 }
 
 /*.navlist a:focus {
@@ -185,10 +184,6 @@ input[type=submit]{
   border-radius: 2em;
   margin-top: 2em;
   margin-bottom: 2em;
-}
-
-input[type=submit]:hover{
-  cursor: pointer;
 }
 
 input:focus {
