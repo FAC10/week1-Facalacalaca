@@ -30,6 +30,16 @@ figurecaption{
   font-size: 2em;
   margin: auto;
   background-color: #E49160;
+  display: block;
+  max-width: 50%;
+  border-radius: 2em;
+}
+@media screen and (max-width: 40em){
+
+  figurecaption{
+    font-size: 1em;
+  }
+
 }
 
 
@@ -202,7 +212,7 @@ figure {
   background-color: #A1BDAB;
   width: 100%;
   position: relative;
-  overflow: hidden;
+  overflow: auto;
 }
 .figure_icons {
   display: flex;
