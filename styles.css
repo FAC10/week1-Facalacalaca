@@ -68,11 +68,14 @@ p {
 blockquote {
   font-family: 'Poiret One', cursive;
   font-size: 2.5em;
+  text-align: center;
 }
 
 cite {
   font-family: 'Raleway', sans-serif;
   margin-left: 2em;
+  float: right;
+  margin: 2em;
 }
 
 .divider {
